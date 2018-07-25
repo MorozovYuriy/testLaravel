@@ -23,3 +23,4 @@ Route::get('/charts', 'ChartsController@index')->name('charts');
 Route::get('/tables', 'TablesController@index')->name('tables');
 Route::get('/navbar', 'NavbarController@index')->name('navbar');
 Route::get('/cards', 'CardsController@index')->name('cards');
+Route::get('/map', 'MapController@index')->name('map');
